@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">网易云音乐</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">请输入邮箱账号</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="prompt_re_password">请再次输入密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="welcome">欢迎</string>
+    <string name="register_success">注册成功</string>
+    <string name="invalid_username">邮箱账号不对</string>
+    <string name="invalid_password">密码长度必须大于5</string>
+    <string name="invalid_re_password">密码不一致</string>
+    <string name="login_failed">登录失败</string>
+    <string name="splash_ease">网易云音乐 . 音乐的力量</string>
+    <string name="splash_net_ipv6">—— 网易云音乐支持IPv6网络 ——</string>
+    <string name="ease_login_title">网易云登录</string>
+    <string name="ease_register_title">网易云注册</string>
+    <string name="login_register">注册</string>
+    <string name="forget_password">忘记密码</string>
+</resources>

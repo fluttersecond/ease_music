@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ease.music.ext.app">
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ease_music"
+        tools:targetApi="31">
+        <!---->
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--登录-->
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/ease_login_title"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
+        <!--注册-->
+        <activity
+            android:name=".ui.register.RegisterActivity"
+            android:exported="false"
+            android:label="@string/ease_register_title"
+            android:parentActivityName=".ui.login.LoginActivity"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
+
+    </application>
+
+</manifest>
